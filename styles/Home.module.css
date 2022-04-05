@@ -1,0 +1,147 @@
+.container {
+  padding: 0 2rem;
+}
+@media screen and (max-width: 767px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    border: solid black 2px;
+    width: 767px;
+    /* height:100%; */
+    transition: 0.4s;
+    }
+}
+
+
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.title {
+  margin: 0;
+  line-height: 1;
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+.title__shareroutine {
+  color:#006400;
+}
+
+
+.all_category {
+  display: flex;
+  flex-direction: column;
+  width:700px;
+  margin-top: 90px;
+}
+
+.all_category1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.all_category2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.all_category_1,
+.all_category_2,
+.all_category_3,
+.all_category_4,
+.all_category_5,
+.all_category_6,
+.all_category_7,
+.all_category_8,
+.all_category_9,
+.all_category_10{
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin:5px;
+  text-align: center;
+  border:solid #006400 2px;
+  border-radius: 50px;
+  font-size: 15px;
+}
+
+.all_category_1:hover,
+.all_category_2:hover,
+.all_category_3:hover,
+.all_category_4:hover,
+.all_category_5:hover,
+.all_category_6:hover,
+.all_category_7:hover,
+.all_category_8:hover,
+.all_category_9:hover,
+.all_category_10:hover {
+background-color: #006400;
+color:white;
+}
+
+.description {
+  margin-top: 6rem;
+  line-height: 1.5;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.div{
+}
+
+.form{
+/* display: flex;
+align-items: center; */
+}
+
+.input {
+  width:350px;
+  height:37px;
+  padding-top:4px;
+  padding-left:20px;
+  border : solid #006400 2px;
+  border-radius: 50px;
+  font-family: 'GmarketSansMedium';
+}
+.btn{
+  width:70px;
+  height:34px;
+  margin-left: 10px;
+  padding-top:4px;
+  border : solid #006400 2px;
+  border-radius: 50px;
+  background-color: #006400;
+  font-family: 'GmarketSansMedium';
+  color: white;
+}
+
+.logo {
+  height: 1em;
+  margin-left: 0.5rem;
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  /* border-top: 2px solid #006400; */
+  border-top: 3px double #006400;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 3px;
+}
+
+.footer__name {
+  margin-left:7px;
+  color:#006400;
+}
