@@ -37,12 +37,13 @@ export default function Home() {
             <div className={styles.all_category_9}>드로잉·사진·글</div>
             <div className={styles.all_category_10}>요리·공예·취미</div>
             </div>
-        </div>
+        </div>   
         <p className={styles.description}>
          ShareRoutine을 자세히 알고 싶다면?
         </p>
-{/* multi select 임시 */}
+
         <div>
+          {/* multi select 임시 */}
           {/* 참고 : https://bit.cloud/lubuskie/material-ui/multiple-select-chips/~dependencies */}
           	{/* <MultipleSelect
 		label="Label"
