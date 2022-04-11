@@ -54,7 +54,8 @@ export default function Home() {
 		setError={setError}
 	/> */}
 </div>
-{/*  */}
+        {/*  */}
+        
         <div className={styles.div}>
           <form
             className={styles.form}
