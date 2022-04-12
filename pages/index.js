@@ -46,13 +46,13 @@ export default function Home() {
           {/* multi select 임시 */}
           {/* 참고 : https://bit.cloud/lubuskie/material-ui/multiple-select-chips/~dependencies */}
           	{/* <MultipleSelect
-		label="Label"
-		value={value}
-		setValue={setValue}
-		options={options}
-		error={error}
-		setError={setError}
-	/> */}
+              label="Label"
+              value={value}
+              setValue={setValue}
+              options={options}
+              error={error}
+              setError={setError}
+            /> */}
 </div>
         {/*  */}
         
