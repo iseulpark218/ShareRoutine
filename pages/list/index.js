@@ -4,6 +4,7 @@ const List = () => {
   return (
     <div>
       {/* 임시 */}
+
       {ListData.map((item) => (
         <div className={styles.tem}>
           {item.nm}
@@ -29,6 +30,7 @@ const List = () => {
           {item.favorites_cnt}
         </div>
       ))}
+      
       {/* 임시끝 */}
       <ul>
         <li>
