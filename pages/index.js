@@ -77,8 +77,8 @@ export default function Home() {
       <footer className={styles.footer}>
         <a href="./styleguide">
         Powered by <span className={styles.footer__name}>IseulPark</span>
-          {/* <span className={styles.logo}>
-            <Image src="/SHAREROUTINE_LOGO.png" alt="Logo" width={72} height={16} />
+      {/* <span className={styles.logo}>
+          <Image src="/SHAREROUTINE_LOGO.png" alt="Logo" width={72} height={16} />
           </span> */}
           </a>
       </footer>
